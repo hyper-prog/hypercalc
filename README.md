@@ -22,7 +22,12 @@ The program has many internal functions and loadable functions and you can defin
 Compile / Install
 -----------------
 
- Simply rename Makefile.linux to Makefile and hit "make" to compile it.
+Require gSAFE (Qt based opensource lib) and Boost C++.
+Check the paths of these libraries in HyperCalc.pro file the run:
+
+    $qmake
+    $make
+    #make install
 
 Author
 ------
