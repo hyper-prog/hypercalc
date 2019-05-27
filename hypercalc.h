@@ -15,7 +15,7 @@
 #include <QWidget>
 
 #define HC_PROGRAMNAME "HyperCalc"
-#define HC_VERSION     "1.22"
+#define HC_VERSION     "1.23"
 
 #define HC_TYPE_MESS   1
 #define HC_TYPE_CALC   2

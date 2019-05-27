@@ -25,7 +25,7 @@ FORMS    +=
 
 INCLUDEPATH += . \
                ../gSAFE/ \
-               ../boost_1_55_0/
+               ../boost_1_69_0/
 win32:OBJECTS += hypercalc.res               
 RESOURCES += HyperCalc.qrc
 TRANSLATIONS = hypercalc_hu.ts
