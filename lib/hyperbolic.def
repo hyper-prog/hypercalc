@@ -1,0 +1,18 @@
+#HyperCalc function definition lib
+#Hyperbolic functions
+# Author: Peter Deak
+# Soruce: http://en.wikipedia.org/wiki/Hyperbolic_function
+
+define sinh(x)  = (e^x-e^-x)/2                       #Hyperbolic sine
+define cosh(x)  = (e^x+e^-x)/2                       #Hyperbolic cosine
+define tanh(x)  = ((e^(2*x)-1)/(e^(2*x)+1)           #Hyperbolic tangent
+define coth(x)  = ((e^(2*x)+1)/(e^(2*x)-1)           #Hyperbolic cotangent
+define sech(x)  = 2/(e^x+e^-x)                       #Hyperbolic secant
+define csch(x)  = 2/(e^x-e^-x)                       #Hyperbolic cosecant
+
+define asinh(x) = log(x+sqrt(x^2+1))                 #Arcus hyperbolic sine
+define acosh(x) = log(x+sqrt(x^2-1))                 #Arcus hyperbolic cosine
+define atanh(x) = 0.5*log((1+x)/(1-x))               #Arcus hyperbolic tangent
+define acoth(x) = 0.5*log((x+1)/(x-1))               #Arcus hyperbolic cotangent
+define asech(x) = log((1/x)+sqrt(1-x^2)/x)           #Arcus secant
+define acsch(x) = log((1/x)+sqrt(1+x^2)/abs(x))      #Arcus cosecant

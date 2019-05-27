@@ -1,0 +1,5 @@
+HyperCalc
+High precision command line styled calculator
+
+Author: Peter Deak (http://hyperprog.com)
+License: GPLv2

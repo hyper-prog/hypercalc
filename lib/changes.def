@@ -1,0 +1,53 @@
+#HyperCalc function definition lib
+# Author: Peter Deak
+
+#Length 
+define inch_to_centimeter(i)  = i*2.54          #Inch to centimeter
+define centimeter_to_inch(cm) = cm/2.54         #Centimeter to inch
+
+define foot_to_meter(f)       = f*0.3048        #Foot to meter
+define meter_to_foot(m)       = m/0.3048        #Meter to foot
+
+define yard_to_meter(y)       = y*0.9144        #Yard to meter
+define meter_to_yard(m)       = m/0.9144        #Meter to yard
+
+define mile_to_kilometer(m)  = m*1.609344       #International mile to kilometer
+define kilometer_to_mile(km) = km/1.609344      #Kilometer to international mile
+
+define kilometer_to_meter(km)= km*1000          #Kilometer to meter
+define meter_to_kilometer(m)  = m/1000          #Meter to kilometer
+define millimeter_to_meter(mm)= mm/1000         #Millimeter to meter
+define meter_to_millimeter(m) = m*1000          #Meter to millimeter
+
+define foot_to_yard(f)        = f/3             #Foot to yard
+define yard_to_foot(y)        = y*3             #Yard to foot
+define inch_to_yard(y)        = y/36            #Inch to yard
+define yard_to_inch(i)        = i*36            #Yard to inch
+define foot_to_inch(f)        = f*12            #Foot to inch
+define inch_to_foot(i)        = i/12            #Inch to foot
+
+define mile_to_meter(m)       = kilometer_to_meter(mile_to_kilometer(m)) #Mile to meter
+define meter_to_mile(m)       = kilometer_to_mile(meter_to_kilometer(m)) #Meter to mile
+
+#Mass
+define pound_to_kilogramm(p)  = p*0.45359237    #Pound to kilogramm
+define kilogramm_to_pound(kg) = kg/0.45359237   #Kilogramm to pound
+define ounce_to_gramm(o)      = o*28.349523125  #Ounce to gramm
+define gramm_to_ounce(g)      = g/28.349523125  #Gramm to ounce
+
+define ounce_to_pound(o)      = o/16            #Ounce to pound
+define pound_to_ounce(o)      = o*16            #Pound to ounce
+
+define ounce_to_kilogramm(o)  = gramm_to_kilogramm(ounce_to_gramm(o))   #Ounce to kilogramm
+define kilogramm_to_ounce(kg) = gramm_to_ounce(kilogramm_to_gramm(kg))  #Kilogramm to ounce
+
+define kilogramm_to_gramm(kg) = kg*1000         #Kilogramm to gramm
+define gramm_to_kilogramm(g)  = g/1000          #Gramm to kilogramm
+
+define ounce_to_kilogramm(o)  = gramm_to_kilogramm(ounce_to_gramm(o))  #Ounce to kilogramm
+define kilogramm_to_ounce(kg) = gramm_to_ounce(kilogramm_to_gramm(kg)) #Kilogramm to ounce
+
+#Temperature
+define kelvin_to_celsius(k)   = k-273.15        #Kelvin to celsius
+define celsius_to_kelvin(c)   = c+273.15        #Celsius to kelvin
+

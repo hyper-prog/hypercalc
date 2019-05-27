@@ -1,0 +1,29 @@
+1.21
+  - Minor code cleanup
+
+1.20 beta
+  - User can define functions
+  - TAB completion for functions, outmods and commands
+  - Possibility to load/store user defined functions from file (*.def)
+  - Text after the # sing act as comment
+  - Added fact(x) factorial function
+  - Qt 5.2.0 complilation fix
+  
+1.10 beta
+  -Full rewrited core/calculations to use boost::multiprecision library
+  -Now the numbers used by HyperCalc are decimal based with 500 decimal letter capacity
+  
+1.05 beta
+  -Fix dobule to string conversion error
+  -Added "precision" command to set the precision of floating point number's decimals
+
+1.04 beta
+  -Added "parenthesis error" message instead of syntax error when needed
+  -vX backward references now handles autowrapped rows (concatenate)
+
+1.03 beta
+  -The LAST variable now means the LAST result (not the last line)
+  -Fix that the error message somtimes points wrong error place when more whitespace was in the line.
+
+1.02 beta
+  -First release

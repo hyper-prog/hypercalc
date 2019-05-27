@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>hypercalc_hu.qm</file>
+        <file>hypercalc.ico</file>
+        <file>hypercalc.png</file>
+        <file>hypercalc_small.png</file>
+    </qresource>
+</RCC>
